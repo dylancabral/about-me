@@ -133,22 +133,25 @@ function dogslike() {
 
     }
   }
-guessingGame();
+  guessingGame();
 
-  let myFavSeason = ['summer', 'fall', 'hockey'];
-  let attemptsRemaining = 7;
-  while (attemptsRemaining) {
-    let userGuess = prompt('What\'s my favorite season of the year?').toLowerCase();
-    attemptsRemaining--;
-    for (let i = 0; i < myFavSeason.length; i++) {
-      if (userGuess === myFavSeason[i]) {
-        alert('Yeah, I actually have 2, summer, fall, and hockey.');
-        score++;
-        attemptsRemaining = 0;
+  function season() {
+    let myFavSeason = ['summer', 'fall', 'hockey'];
+    let attemptsRemaining = 7;
+    while (attemptsRemaining) {
+      let userGuess = prompt('What\'s my favorite season of the year?').toLowerCase();
+      attemptsRemaining--;
+      for (let i = 0; i < myFavSeason.length; i++) {
+        if (userGuess === myFavSeason[i]) {
+          alert('Yeah, I actually have 2, summer, fall, and hockey.');
+          score++;
+          attemptsRemaining = 0;
+        }
+      }
+      if (attemptsRemaining) {
+        alert(`You have ${attemptsRemaining} attempts remaining.`);
       }
     }
-    if (attemptsRemaining) {
-      alert(`You have ${attemptsRemaining} attempts remaining.`);
-    }
   }
+  season();
   alert(`score  ${score} `);
