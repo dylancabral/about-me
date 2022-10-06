@@ -6,13 +6,6 @@
 
 let score = 0;
 
-// let username = prompt('What is your name?');
-// document.write('Thanks for coming to my page ' + username);
-// if (username === 'kale' || username === 'sheyna') {
-//   alert('Whats up powerful coding overlords');
-// } else {
-//   alert('hey welcome to my page, more important people got a differnt alert, Wish you were them dont you!.');
-// }
 let username = prompt('What is your name?').toLowerCase();
 function questionOne() {
   console.log('Thanks for coming to my page ' + username);
@@ -21,8 +14,9 @@ function questionOne() {
   } else {
     alert('hey welcome to my page, more important people got a differnt alert, Wish you were them dont you!.');
   }
+
 }
-questionOne(username);
+questionOne();
 
 // let dogs = prompt('Do I prefer dogs better over cats?').toLowerCase();
 // if (dogs === 'yes' || dogs === 'y' || dogs === 'ya' || dogs === 'yup') {
@@ -36,9 +30,9 @@ questionOne(username);
 //   //console.log('You should answer with a yes or no!');
 //   alert('You should answer with a yes or no!');
 // }
-let dogs = prompt('Do I prefer dogs better over cats?').toLowerCase();
 
 function dogslike() {
+  let dogs = prompt('Do I prefer dogs better over cats?').toLowerCase();
   if (dogs === 'yes' || dogs === 'y' || dogs === 'ya' || dogs === 'yup') {
     // console.log('You are correct, I love dogs!');
     alert('You are correct, I love dogs!');
@@ -51,7 +45,7 @@ function dogslike() {
     alert('You should answer with a yes or no!');
   }
 }
-dogslike(dogs);
+dogslike();
 
 // let music = prompt('Is country music my favorite type music? Twangin and bangin!').toLowerCase();
 // if (music === 'yes' || music === 'y' || music === 'ya' || music === 'yup') {
