@@ -1,18 +1,39 @@
 h1{
-  color: #0b3a85;
+  font-size:400%;  color: #0b3a85;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-indent: 10px;
+  text-align: center;
+  text-align: center;
+  width: auto;
+  padding: 3rem;
+  background-color: rgb(158, 182, 209);
+  border: black solid;
+  border-style:double;
+  text-shadow: 2px 2px #E38E52;
+  border: 20px double rgb(15, 63, 117);
+  border-radius: 12px;
+  padding: 35px;
+
+ 
+  
 }
 
-ul{margin-right:70%;
+ul{
   background-color: #E38E52;
-  
+  width:auto;
+  margin:1rem 10%;
+  list-style-type: circle;
+  padding: 1rem 2rem;
+  font-size: large;
+  border: 5px solid black;
+  border-radius: 12px;
+  padding: 25px;
+
 
 
 }
 
 body{
-  background-color: #29A6A1;
+  background-color:#1b71e2a1;
   
 }
 
@@ -20,21 +41,46 @@ p{
   color: #143770 ;
   background-color:#E38E52;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin-right:70%
+  margin:1rem 10%;
+  width: auto;
+  padding: 1rem 2rem;
+  font-size: large;
+  border-radius: 5%;
+  border: 5px solid black;
+  border-radius: 12px;
+  padding: 25px;
+
 }
 
 h2{
   color: #143770 ;
-  background-color: #69bebb;
+  background-color: #048cfc;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border: solid black;
-  margin-right: 80%;
-  text-align: left;
+  margin: 1rem 10%;
+  width: auto;
   text-indent: 10px;
+  text-align: center;
+  padding: 1rem;
+  font-size: larger;
+  border: 5px solid black;
+  border-radius: 12px;
+  padding: 25px;
+  text-decoration: underline;
+
 }
-h1{
-  background-color: rgb(175, 235, 228);
-  margin-right: 80%;
-  border: black solid;
+  
+ol{
+  list-style: upper-roman;
+  background-color: #E38E52;
+  text-align: center;
+  width: auto;
+  margin:0 31%;
+  font-size: x-large;
+  border: 5px solid black;
+  border-radius: 12px;
+  padding: 30px 100px;
+
+  
 }
 
