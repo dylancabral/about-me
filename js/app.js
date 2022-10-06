@@ -14,7 +14,6 @@ function questionOne() {
   } else {
     alert('hey welcome to my page, more important people got a differnt alert, Wish you were them dont you!.');
   }
-
 }
 questionOne();
 
@@ -44,6 +43,15 @@ function dogslike() {
     //console.log('You should answer with a yes or no!');
     alert('You should answer with a yes or no!');
   }
+
+  alert('You are correct, I love dogs!');
+  score++;
+} else if (dogs === 'no' || dogs === 'nope' || dogs === 'nah' || dogs === 'n') {
+  //console.log('why on earth would I like cats more than dogs, they are great, but not superior Im sorry.');
+  alert('why on earth would I like cats more than dogs, they are great, but not superior Im sorry.');
+} else {
+  //console.log('You should answer with a yes or no!');
+  alert('You should answer with a yes or no!');
 }
 dogslike();
 
