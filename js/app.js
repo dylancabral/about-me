@@ -6,13 +6,7 @@
 
 let score = 0;
 
-// let username = prompt('What is your name?');
-// document.write('Thanks for coming to my page ' + username);
-// if (username === 'kale' || username === 'sheyna') {
-//   alert('Whats up powerful coding overlords');
-// } else {
-//   alert('hey welcome to my page, more important people got a differnt alert, Wish you were them dont you!.');
-// }
+
 let username = prompt('What is your name?').toLowerCase();
 function questionOne() {
   console.log('Thanks for coming to my page ' + username);
@@ -21,6 +15,7 @@ function questionOne() {
   } else {
     alert('hey welcome to my page, more important people got a differnt alert, Wish you were them dont you!.');
   }
+
 }
 questionOne(username);
 
@@ -37,6 +32,7 @@ questionOne(username);
 //   alert('You should answer with a yes or no!');
 // }
 let dogs = prompt('Do I prefer dogs better over cats?').toLowerCase();
+
 function dogslike() {
 
   if (dogs === 'yes' || dogs === 'y' || dogs === 'ya' || dogs === 'yup') {
@@ -50,6 +46,16 @@ function dogslike() {
     //console.log('You should answer with a yes or no!');
     alert('You should answer with a yes or no!');
   }
+
+  alert('You are correct, I love dogs!');
+  score++;
+} else if (dogs === 'no' || dogs === 'nope' || dogs === 'nah' || dogs === 'n') {
+  //console.log('why on earth would I like cats more than dogs, they are great, but not superior Im sorry.');
+  alert('why on earth would I like cats more than dogs, they are great, but not superior Im sorry.');
+} else {
+  //console.log('You should answer with a yes or no!');
+  alert('You should answer with a yes or no!');
+
 }
 dogslike(dogs);
 
