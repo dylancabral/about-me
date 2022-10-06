@@ -104,34 +104,36 @@ function dogslike() {
     }
   }
   kids();
-  
-  let attempts = 4;
-  let number = '13';
-  let guess = prompt('At what age did I start listening to heavy music?');
 
-  for (let i = 1; i < attempts; i++) {
-    // attempts--; 
-    console.log(attempts);
-    console.log(i);
-    if (guess === number) {
-      alert('Thats correct, you got it!');
-      score++;
-    } else if (guess > number) {
-      alert(`you have ${attempts - i} attempts remaining`);
-      alert('Sorry, maybe try a little younger');
-      guess = prompt('guess again!');
+  function guessingGame() {
+    let attempts = 4;
+    let number = '13';
+    let guess = prompt('At what age did I start listening to heavy music?');
 
-    } else if (guess < number) {
-      alert('not quite that young, guess again');
-      alert(`you have ${attempts - i} attempts remaining`);
-      guess = prompt('guess again!');
+    for (let i = 1; i < attempts; i++) {
+      // attempts--; 
+      console.log(attempts);
+      console.log(i);
+      if (guess === number) {
+        alert('Thats correct, you got it!');
+        score++;
+      } else if (guess > number) {
+        alert(`you have ${attempts - i} attempts remaining`);
+        alert('Sorry, maybe try a little younger');
+        guess = prompt('guess again!');
+
+      } else if (guess < number) {
+        alert('not quite that young, guess again');
+        alert(`you have ${attempts - i} attempts remaining`);
+        guess = prompt('guess again!');
+      }
+      if (i === attempts - 1) {
+        console.log('you ran out of attempts the answer was 13');
+      }
+
     }
-    if (i === attempts - 1) {
-      console.log('you ran out of attempts the answer was 13');
-    }
-
   }
-
+guessingGame();
 
   let myFavSeason = ['summer', 'fall', 'hockey'];
   let attemptsRemaining = 7;
