@@ -89,19 +89,22 @@ function dogslike() {
   }
   pc();
 
-  let siblings = prompt('Am I an only child?').toLowerCase();
-  if (siblings === 'yes' || siblings === 'y' || siblings === 'ya' || siblings === 'yup') {
-    //console.log('actually I am the oldest of 4, probably would had more money growing but those are my little buds!');
-    alert('actually I am the oldest of 4, probably would had more money growing but those are my little buds!');
-  } else if (siblings === 'no' || siblings === 'nope' || siblings === 'nah' || siblings === 'n') {
-    //console.log('Yeah, you got it, oldest of 4.');
-    alert('Yeah, you got it, oldest of 4.');
-    score++;
-  } else {
-    //console.log('I seriously cant with you, please for the love of a non denominational diety, yes or no!');
-    alert('I seriously cant with you, please for the love of a non denominational diety, yes or no!');
+  function kids() {
+    let siblings = prompt('Am I an only child?').toLowerCase();
+    if (siblings === 'yes' || siblings === 'y' || siblings === 'ya' || siblings === 'yup') {
+      //console.log('actually I am the oldest of 4, probably would had more money growing but those are my little buds!');
+      alert('actually I am the oldest of 4, probably would had more money growing but those are my little buds!');
+    } else if (siblings === 'no' || siblings === 'nope' || siblings === 'nah' || siblings === 'n') {
+      //console.log('Yeah, you got it, oldest of 4.');
+      alert('Yeah, you got it, oldest of 4.');
+      score++;
+    } else {
+      //console.log('I seriously cant with you, please for the love of a non denominational diety, yes or no!');
+      alert('I seriously cant with you, please for the love of a non denominational diety, yes or no!');
+    }
   }
-
+  kids();
+  
   let attempts = 4;
   let number = '13';
   let guess = prompt('At what age did I start listening to heavy music?');
