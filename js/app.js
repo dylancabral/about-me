@@ -6,17 +6,6 @@
 
 let score = 0;
 
-<<<<<<< HEAD
-// let username = prompt('What is your name?');
-// document.write('Thanks for coming to my page ' + username);
-// if (username === 'kale' || username === 'sheyna') {
-//   alert('Whats up powerful coding overlords');
-// } else {
-//   alert('hey welcome to my page, more important people got a differnt alert, Wish you were them dont you!.');
-// }
-=======
-
->>>>>>> 8a10774e24c532412bb1f65057c153525c408a90
 let username = prompt('What is your name?').toLowerCase();
 function questionOne() {
   console.log('Thanks for coming to my page ' + username);
@@ -25,12 +14,8 @@ function questionOne() {
   } else {
     alert('hey welcome to my page, more important people got a differnt alert, Wish you were them dont you!.');
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 8a10774e24c532412bb1f65057c153525c408a90
 }
-questionOne(username);
+questionOne();
 
 // let dogs = prompt('Do I prefer dogs better over cats?').toLowerCase();
 // if (dogs === 'yes' || dogs === 'y' || dogs === 'ya' || dogs === 'yup') {
@@ -44,14 +29,9 @@ questionOne(username);
 //   //console.log('You should answer with a yes or no!');
 //   alert('You should answer with a yes or no!');
 // }
-let dogs = prompt('Do I prefer dogs better over cats?').toLowerCase();
-<<<<<<< HEAD
-if (dogs === 'yes' || dogs === 'y' || dogs === 'ya' || dogs === 'yup') {
-  // console.log('You are correct, I love dogs!');
-=======
 
 function dogslike() {
-
+  let dogs = prompt('Do I prefer dogs better over cats?').toLowerCase();
   if (dogs === 'yes' || dogs === 'y' || dogs === 'ya' || dogs === 'yup') {
     // console.log('You are correct, I love dogs!');
     alert('You are correct, I love dogs!');
@@ -64,7 +44,6 @@ function dogslike() {
     alert('You should answer with a yes or no!');
   }
 
->>>>>>> 8a10774e24c532412bb1f65057c153525c408a90
   alert('You are correct, I love dogs!');
   score++;
 } else if (dogs === 'no' || dogs === 'nope' || dogs === 'nah' || dogs === 'n') {
@@ -73,21 +52,36 @@ function dogslike() {
 } else {
   //console.log('You should answer with a yes or no!');
   alert('You should answer with a yes or no!');
-
 }
-dogslike(dogs);
+dogslike();
+
+// let music = prompt('Is country music my favorite type music? Twangin and bangin!').toLowerCase();
+// if (music === 'yes' || music === 'y' || music === 'ya' || music === 'yup') {
+//   //console.log('actually I prefer Heavy music like Metalcore and Deathcore. Good try though, siked you out!');
+//   alert('actually I prefer Heavy music like Metalcore and Deathcore. Good try though, siked you out!');
+// } else if (music === 'no' || music === 'nope' || music === 'nah' || music === 'n') {
+//   //console.log('Good guess, Yeah I actually am a huge fan of heavier music like metalcore or deathcore! bluesier country is alright though.');
+//   alert('Good guess, Yeah I actually am a huge fan of heavier music like metalcore or deathcore! bluesier country is alright though.');
+//   score++;
+// } else {
+//   console.log('yes or no, Come on!');
+// }
 
 let music = prompt('Is country music my favorite type music? Twangin and bangin!').toLowerCase();
-if (music === 'yes' || music === 'y' || music === 'ya' || music === 'yup') {
-  //console.log('actually I prefer Heavy music like Metalcore and Deathcore. Good try though, siked you out!');
-  alert('actually I prefer Heavy music like Metalcore and Deathcore. Good try though, siked you out!');
-} else if (music === 'no' || music === 'nope' || music === 'nah' || music === 'n') {
-  //console.log('Good guess, Yeah I actually am a huge fan of heavier music like metalcore or deathcore! bluesier country is alright though.');
-  alert('Good guess, Yeah I actually am a huge fan of heavier music like metalcore or deathcore! bluesier country is alright though.');
-  score++;
-} else {
-  console.log('yes or no, Come on!');
+
+function favmusic() {
+  if (music === 'yes' || music === 'y' || music === 'ya' || music === 'yup') {
+    //console.log('actually I prefer Heavy music like Metalcore and Deathcore. Good try though, siked you out!');
+    alert('actually I prefer Heavy music like Metalcore and Deathcore. Good try though, siked you out!');
+  } else if (music === 'no' || music === 'nope' || music === 'nah' || music === 'n') {
+    //console.log('Good guess, Yeah I actually am a huge fan of heavier music like metalcore or deathcore! bluesier country is alright though.');
+    alert('Good guess, Yeah I actually am a huge fan of heavier music like metalcore or deathcore! bluesier country is alright though.');
+    //score++;
+  } else {
+    console.log('yes or no, Come on!');
+  }
 }
+favmusic(music);
 
 let computer = prompt('Is pc the masterrace?').toLowerCase();
 if (computer === 'yes' || computer === 'y' || computer === 'ya' || computer === 'yup') {
