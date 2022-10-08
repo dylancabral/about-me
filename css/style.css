@@ -11,10 +11,7 @@ h1{
   text-shadow: 2px 2px #E38E52;
   border: 20px double rgb(15, 63, 117);
   border-radius: 12px;
-  padding: 35px;
-
- 
-  
+  padding: 35px; 
 }
 
 ul{
@@ -27,9 +24,6 @@ ul{
   border: 5px solid black;
   border-radius: 12px;
   padding: 25px;
-
-
-
 }
 
 body{
@@ -67,7 +61,6 @@ h2{
   border-radius: 12px;
   padding: 25px;
   text-decoration: underline;
-
 }
   
 ol{
@@ -79,8 +72,6 @@ ol{
   font-size: x-large;
   border: 5px solid black;
   border-radius: 12px;
-  padding: 30px 100px;
-
-  
+  padding: 30px 100px
 }
 
