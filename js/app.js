@@ -112,7 +112,6 @@ function guessingGame() {
   let guess = prompt('At what age did I start listening to heavy music?');
 
   for (let i = 1; i < attempts; i++) {
-    // attempts--; 
     console.log(attempts);
     console.log(i);
     if (guess === number) {
